@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="Alphanumeric/Alphanumeric.csproj" Id="a984d070-bca2-4b38-8bb2-5cf1aeaf4e9c" />
+  <Project Path="CodeBlocks/CodeBlocks.csproj" Id="a34476d0-e17b-4769-8429-2b410ff2c292" />
+  <Project Path="DifferentiateDoAndWhile/DifferentiateDoAndWhile.csproj" Id="6563a094-3863-4c3f-a0b2-865665271b76" />
+  <Project Path="ForLoops/ForLoops.csproj" Id="4ae26eaa-622a-45d7-82bb-42b11b1d70d4" />
+  <Project Path="StringDataTypeMethods/StringDataTypeMethods.csproj" Id="93bd6a79-8291-485d-89ab-ef70311c66cc" />
+  <Project Path="SwitchBranching/SwitchBranching.csproj" Id="a942030d-5334-4641-9704-8e434f04f94e" />
+  <Project Path="VariableDataProject/VariableDataProject.csproj" Id="bfaf4a9c-2941-42f1-8534-bea6a6e2db9e" />
+</Solution>
