@@ -5,5 +5,6 @@
   <Project Path="ForLoops/ForLoops.csproj" Id="4ae26eaa-622a-45d7-82bb-42b11b1d70d4" />
   <Project Path="StringDataTypeMethods/StringDataTypeMethods.csproj" Id="93bd6a79-8291-485d-89ab-ef70311c66cc" />
   <Project Path="SwitchBranching/SwitchBranching.csproj" Id="a942030d-5334-4641-9704-8e434f04f94e" />
+  <Project Path="VariableDataChallenge/VariableDataChallenge.csproj" Id="6fc9c3a2-5e13-4b84-ae9d-0499466a4b3a" />
   <Project Path="VariableDataProject/VariableDataProject.csproj" Id="bfaf4a9c-2941-42f1-8534-bea6a6e2db9e" />
 </Solution>
