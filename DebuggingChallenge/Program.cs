@@ -66,10 +66,8 @@ while (transactions > 0)
         testCounter += 1;
     }
 
-    int paymentOnes = itemCost % 2;                 // value is 1 when itemCost is odd, value is 0 when itemCost is even
-    int paymentFives = (itemCost % 10 > 7) ? 1 : 0; // value is 1 when itemCost ends with 8 or 9, otherwise value is 0
-    int paymentTens = (itemCost % 20 > 13) ? 1 : 0; // value is 1 when 13 < itemCost < 20 OR 33 < itemCost < 40, otherwise value is 0
-    int paymentTwenties = (itemCost < 20) ? 1 : 2;  // value is 1 when itemCost < 20, otherwise value is 2
+    int paymentOnes, paymentFives, paymentTens, paymentTwenties;
+    CalculatePaymentBreakdown(itemCost, out paymentOnes, out paymentFives, out paymentTens, out paymentTwenties);
 
     // display messages describing the current transaction
     Console.WriteLine($"Customer is making a ${itemCost} purchase");
@@ -175,4 +173,18 @@ static string TillAmountSummary(int[] cashTill)
 {
     return $"The till has {cashTill[3] * 20 + cashTill[2] * 10 + cashTill[1] * 5 + cashTill[0]} dollars";
 
+}
+
+static void CalculatePaymentBreakdown(int itemCost, out int ones, out int fives, out int tens, out int twenties)
+{
+    twenties = itemCost / 20;
+    itemCost -= twenties * 20;
+
+    tens = itemCost / 10;
+    itemCost -= tens * 10;
+
+    fives = itemCost / 5;
+    itemCost -= fives * 5;
+
+    ones = itemCost;
 }
