@@ -2,6 +2,7 @@
   <Project Path="Alphanumeric/Alphanumeric.csproj" Id="a984d070-bca2-4b38-8bb2-5cf1aeaf4e9c" />
   <Project Path="CodeBlocks/CodeBlocks.csproj" Id="a34476d0-e17b-4769-8429-2b410ff2c292" />
   <Project Path="DifferentiateDoAndWhile/DifferentiateDoAndWhile.csproj" Id="6563a094-3863-4c3f-a0b2-865665271b76" />
+  <Project Path="Exceptions/Exceptions.csproj" Id="985a4d59-0a7d-4843-b04d-0485c141f3b8" />
   <Project Path="ForLoops/ForLoops.csproj" Id="4ae26eaa-622a-45d7-82bb-42b11b1d70d4" />
   <Project Path="MiniGame/MiniGame.csproj" Id="447dd4df-384e-40ad-baeb-f56988de26da" />
   <Project Path="StringDataTypeMethods/StringDataTypeMethods.csproj" Id="93bd6a79-8291-485d-89ab-ef70311c66cc" />
