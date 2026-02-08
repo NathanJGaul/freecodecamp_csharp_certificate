@@ -66,8 +66,8 @@ while (transactions > 0)
         testCounter += 1;
     }
 
-    int paymentOnes, paymentFives, paymentTens, paymentTwenties;
-    CalculatePaymentBreakdown(itemCost, out paymentOnes, out paymentFives, out paymentTens, out paymentTwenties);
+    //int paymentOnes, paymentFives, paymentTens, paymentTwenties;
+    CalculatePaymentBreakdown(itemCost, out int paymentOnes, out int paymentFives, out int paymentTens, out int paymentTwenties);
 
     // display messages describing the current transaction
     Console.WriteLine($"Customer is making a ${itemCost} purchase");
